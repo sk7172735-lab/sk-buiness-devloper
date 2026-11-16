@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">MYFREECHAIR barber availability concept</title>
+  <desc id="desc">A modern barber chair icon on a dark navy and lime interface background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101827"/>
+      <stop offset="1" stop-color="#172b48"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d4ff62"/>
+      <stop offset="1" stop-color="#8edc35"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1060" cy="35" r="260" fill="#243b58" opacity=".35"/>
+  <circle cx="115" cy="620" r="230" fill="#1d3451" opacity=".4"/>
+  <g fill="none" stroke="#d4ff62" stroke-opacity=".12" stroke-width="2">
+    <path d="M0 104h1200M0 570h1200"/>
+    <path d="M80 0v675M1120 0v675"/>
+  </g>
+  <rect x="74" y="74" width="1052" height="527" rx="28" fill="#111b2a" stroke="#ffffff" stroke-opacity=".1"/>
+  <g transform="translate(160 162)" filter="url(#shadow)">
+    <rect x="85" y="12" width="178" height="174" rx="62" fill="#dbe4ed"/>
+    <rect x="112" y="39" width="124" height="120" rx="42" fill="#27374a"/>
+    <rect x="59" y="184" width="230" height="152" rx="52" fill="url(#accent)"/>
+    <rect x="92" y="211" width="164" height="99" rx="34" fill="#b6eb53"/>
+    <path d="M77 327v65m194-65v65M48 399h251" stroke="#dbe4ed" stroke-width="17" stroke-linecap="round"/>
+    <path d="M153 398v37m60-37v37M111 444h144" stroke="#dbe4ed" stroke-width="13" stroke-linecap="round"/>
+    <circle cx="56" cy="454" r="13" fill="#d4ff62"/>
+    <circle cx="297" cy="454" r="13" fill="#d4ff62"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="570" y="278" fill="#f8fafc" font-size="68" font-weight="800" letter-spacing="-2">MYFREECHAIR</text>
+    <rect x="575" y="310" width="70" height="7" rx="3.5" fill="url(#accent)"/>
+    <text x="570" y="372" fill="#cbd5e1" font-size="26" font-weight="600" letter-spacing="4">BARBER AVAILABILITY</text>
+    <text x="570" y="435" fill="#94a3b8" font-size="22">Find a chair. Book your next cut.</text>
+    <g transform="translate(570 480)">
+      <rect width="214" height="53" rx="26.5" fill="url(#accent)"/>
+      <text x="107" y="34" fill="#14202d" font-size="18" font-weight="700" text-anchor="middle">PROJECT CONCEPT</text>
+    </g>
+  </g>
+</svg>
